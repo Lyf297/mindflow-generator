@@ -1,59 +1,62 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>MindFlow Generator</title>
-
-  <!-- Font Poppins -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/responsive.css">
-
-  <!-- GoJS -->
-  <script src="https://unpkg.com/gojs/release/go.js"></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MindFlow Ultimate</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://unpkg.com/gojs/release/go.js"></script>
 </head>
 <body>
-  <header>
-    <h1> MindFlow Generator</h1>
-    <p>Buat mindmap & flowchart profesional dengan mudah.</p>
-  </header>
 
-  <main>
-    <section class="card controls">
-      <div class="mode-switch">
-        <button id="mindmapMode" class="active">Mindmap</button>
-        <button id="flowchartMode">Flowchart</button>
-      </div>
+<header>
+<h1>MindFlow Ultimate</h1>
+<p>Mindmap & Flowchart Generator</p>
+</header>
 
-      <div class="actions">
-        <button id="addNode">Add Node</button>
-        <button id="exportPNG">Export PNG</button>
-        <button id="exportJSON">Export JSON</button>
-        <button id="importJSONBtn">Import JSON</button>
-      </div>
+<main>
+<section class="card controls">
+<div class="mode-switch">
+<button id="mindmapMode" class="active">Mindmap</button>
+<button id="flowchartMode">Flowchart</button>
+</div>
 
-      <div class="import-section">
-        <input type="file" id="importFile" accept=".json" hidden>
-        <label for="importFile" class="import-btn">Pilih File JSON</label>
-        <div id="dropArea" class="drop-area">
-          <p>Atau seret file JSON ke sini ⬇️</p>
-        </div>
-      </div>
-    </section>
+<div class="template-switch">
+<label>Template:</label>
+<select id="nodeTemplateSelect">
+<option value="Rectangle">Rectangle</option>
+<option value="Ellipse">Ellipse</option>
+<option value="Diamond">Diamond</option>
+</select>
+</div>
 
-    <section class="card preview-area">
-      <div id="diagramDiv"></div>
-    </section>
-  </main>
+<div class="actions">
+<button id="addNode">Add Node</button>
+<button id="duplicateNode">Duplicate Node</button>
+<button id="deleteNode">Delete Node</button>
+<button id="undoBtn">Undo</button>
+<button id="redoBtn">Redo</button>
+<button id="exportPNG">Export PNG</button>
+<button id="exportJSON">Export JSON</button>
+<button id="importJSONBtn">Import JSON</button>
+<input type="file" id="importFile" accept=".json" hidden>
+</div>
 
-  <footer>
-    <p>Created by Lyf297 — Powered by GoJS ⚙️</p>
-  </footer>
+<div class="search-section">
+<input type="text" id="searchNode" placeholder="Search node...">
+</div>
+</section>
 
-  <!-- JS -->
-  <script type="module" src="js/main.js"></script>
+<section class="card preview-area">
+<div id="diagramDiv"></div>
+</section>
+</main>
+
+<footer>
+<p>Created by Lyf297</p>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
 </html>
