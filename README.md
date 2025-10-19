@@ -14,7 +14,7 @@
 - Export diagram ke **PNG** atau **JSON** dan import kembali  
 
 Website bisa dicoba langsung di sini 👉  
-🌐 [https://lyf297.github.io/mindflow-ultimate/](https://lyf297.github.io/mindflow-ultimate/)
+🌐 [https://lyf297.github.io/mindflow-generator/](https://lyf297.github.io/mindflow-generator/)
 
 ---
 
@@ -23,7 +23,7 @@ Website bisa dicoba langsung di sini 👉
 | Bagian | Teknologi / Tools |
 |--------|-----------------|
 | Frontend | HTML5, CSS3, JavaScript |
-| Library | [JointJS](https://www.jointjs.com/) (Open Source) |
+| Library | [Go js](Open Source) |
 | Hosting | GitHub Pages |
 
 ---
