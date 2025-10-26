@@ -1,43 +1,46 @@
-#  MindFlow Generator 
+# 🧠 MindFlow Generator  
 
-> Aplikasi web interaktif untuk membuat Mindmap & Flowchart profesional
+> Aplikasi web interaktif untuk membuat **Mindmap** & **Flowchart** profesional ⚡  
 
 ---
 
-##  Tentang Proyek
+## 🧩 Tentang Proyek  
 
-**MindFlow Ultimate** adalah aplikasi berbasis web yang membantu pengguna:
-- Membuat **Mindmap** dan **Flowchart** dengan mudah  
+**MindFlow Generator** adalah aplikasi berbasis web yang memudahkan pengguna dalam membuat dan mengatur **Mindmap** serta **Flowchart** secara interaktif.  
+
+🎯 Dirancang agar kamu bisa:  
+- Membuat **Mindmap** & **Flowchart** dengan mudah  
 - Menambahkan, menduplikasi, dan menghapus node  
-- Drag & Resize node secara interaktif  
-- Switch antara Mindmap dan Flowchart secara instan  
-- Export diagram ke **PNG** atau **JSON** dan import kembali  
+- Mengatur posisi dengan **drag & resize**  
+- Berpindah antar mode *Mindmap ↔ Flowchart* secara instan  
+- Mengekspor hasil ke **PNG / JSON** dan mengimpornya kembali kapan saja  
 
-Website bisa dicoba langsung di sini   
+🧭 Coba langsung aplikasinya di sini:  
 🌐 [https://lyf297.github.io/mindflow-generator/](https://lyf297.github.io/mindflow-generator/)
 
 ---
 
-##  Teknologi yang Digunakan
+## ⚙️ Teknologi yang Digunakan  
 
-| Bagian | Teknologi / Tools |
-|--------|-----------------|
+| 💻 Bagian | 🛠️ Teknologi / Tools |
+|-----------|----------------------|
 | Frontend | HTML5, CSS3, JavaScript |
-| Library | [Go js](Open Source) |
-| Hosting | GitHub Pages |
+| Library | 🧩 [GoJS](https://gojs.net/) *(Open Source)* |
+| Hosting | ☁️ GitHub Pages |
 
 ---
 
-##  Fitur Utama
+## 🌟 Fitur Utama  
 
--  **Add / Duplicate / Delete Node** — kelola diagram dengan mudah  
--  **Undo / Redo** — kontrol penuh terhadap perubahan diagram  
--  **Mindmap  Flowchart Switch** — ubah mode diagram dengan cepat  
--  **Template Node** — Rectangle, Ellipse, Diamond  
--  **Drag & Resize** — interaktif seperti aplikasi profesional  
--  **Export / Import** — simpan dan buka diagram dalam format PNG / JSON  
--  **Search Node** — temukan node dengan cepat  
--  **Responsive** — tampilan rapi di desktop dan mobile  
+🔥 Fitur-fitur unggulan dari **MindFlow Generator**:
+
+- ➕ **Add / Duplicate / Delete Node** — kelola struktur diagram dengan mudah  
+- ↩️ **Undo / Redo** — kontrol penuh terhadap perubahan  
+- 🔁 **Mindmap ↔ Flowchart Switch** — ubah mode hanya dengan satu klik  
+- 🟦 **Template Node** — bentuk: *Rectangle*, *Ellipse*, *Diamond*  
+- 🖱️ **Drag & Resize Node** — geser dan ubah ukuran node dengan bebas  
+- 💾 **Export / Import Diagram** — simpan hasil dalam format PNG / JSON  
+- 🔍 **Search Node** — cari node berdasarkan nama atau isi  
+- 📱 **Responsive Design** — nyaman di desktop maupun perangkat mobile  
 
 ---
-
