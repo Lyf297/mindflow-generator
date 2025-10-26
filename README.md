@@ -25,7 +25,7 @@
 | 💻 Bagian | 🛠️ Teknologi / Tools |
 |-----------|----------------------|
 | Frontend | HTML5, CSS3, JavaScript |
-| Library | 🧩 [GoJS](https://gojs.net/) *(Open Source)* |
+| Library | 🧩 [GoJS](https://gojs.net/)  |
 | Hosting | ☁️ GitHub Pages |
 
 ---
